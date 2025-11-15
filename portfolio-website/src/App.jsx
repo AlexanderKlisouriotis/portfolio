@@ -38,10 +38,10 @@ function App() {
       {/* Hero Section */}
       <section id="hero" className="hero">
         <div className="hero-content">
-          <h1 className="hero-title">Hi, I'm Alex</h1>
-          <p className="hero-subtitle">Full Stack Developer & Creative Problem Solver</p>
+          <h1 className="hero-title">Hi, I'm Alexander</h1>
+          <p className="hero-subtitle">Software Engineer & Problem Solver</p>
           <p className="hero-description">
-            I build beautiful, responsive web applications with modern technologies
+            Building scalable, high-impact solutions with React, JavaScript, and Python. Experienced in full-stack development and cross-functional collaboration.
           </p>
           <button className="cta-button" onClick={() => scrollToSection('projects')}>
             View My Work
@@ -56,26 +56,27 @@ function App() {
           <div className="about-content">
             <div className="about-text">
               <p>
-                I'm a passionate developer with a strong focus on creating intuitive and engaging user experiences. 
-                With expertise in React, JavaScript, and modern web technologies, I transform ideas into fully functional web applications.
+                I'm an aspiring software engineer with a foundation in automation, technical support, and cross-functional problem-solving. I'm passionate about optimizing systems and building scalable solutions in tech-driven environments.
               </p>
               <p>
-                When I'm not coding, you can find me exploring new technologies, contributing to open-source projects, 
-                or sharing my knowledge with the developer community.
+                Currently working at The Boon as a Software Engineer, where I develop core systems and features using JavaScript, Python, and React. I thrive in fast-paced startup environments and am committed to shipping high-quality, performant solutions.
+              </p>
+              <p>
+                Bachelor of Science in Computer Science from Pace University (Cum Laude, Dean's List). Experienced with full-stack development, system automation, and cross-functional collaboration.
               </p>
             </div>
             <div className="about-stats">
               <div className="stat">
+                <h3>BS CS</h3>
+                <p>Pace University</p>
+              </div>
+              <div className="stat">
                 <h3>5+</h3>
-                <p>Years Experience</p>
+                <p>Years Tech Experience</p>
               </div>
               <div className="stat">
-                <h3>20+</h3>
-                <p>Projects Completed</p>
-              </div>
-              <div className="stat">
-                <h3>15+</h3>
-                <p>Happy Clients</p>
+                <h3>NYC</h3>
+                <p>Based & Remote</p>
               </div>
             </div>
           </div>
@@ -89,48 +90,45 @@ function App() {
           <div className="projects-grid">
             <div className="project-card">
               <div className="project-header">
-                <h3>E-Commerce Platform</h3>
+                <h3>Buff-Bot</h3>
               </div>
               <p>
-                A full-stack e-commerce solution built with React, Node.js, and MongoDB. Features include 
-                product filtering, shopping cart, and integrated payment processing.
+                A React-based workout logging and regimen generator. Built a responsive fitness tracking app with user-driven workout logging, personalized training suggestions, and custom routine creation. Served as Scrum Guardian coordinating sprint planning.
               </p>
               <div className="project-tags">
                 <span className="tag">React</span>
-                <span className="tag">Node.js</span>
-                <span className="tag">MongoDB</span>
+                <span className="tag">JavaScript</span>
+                <span className="tag">Scrum</span>
               </div>
               <a href="#" className="project-link">View Project →</a>
             </div>
 
             <div className="project-card">
               <div className="project-header">
-                <h3>Task Management App</h3>
+                <h3>Mutual Aid Website</h3>
               </div>
               <p>
-                A collaborative task management application with real-time updates. Users can create projects, 
-                assign tasks, and track progress with an intuitive dashboard.
+                Informational site for a grassroots aid network. Designed and developed a static site using HTML and CSS with integrated Google web apps to streamline community resource access and volunteer sign-ups.
               </p>
               <div className="project-tags">
-                <span className="tag">React</span>
-                <span className="tag">Firebase</span>
-                <span className="tag">Tailwind CSS</span>
+                <span className="tag">HTML</span>
+                <span className="tag">CSS</span>
+                <span className="tag">Google Apps</span>
               </div>
               <a href="#" className="project-link">View Project →</a>
             </div>
 
             <div className="project-card">
               <div className="project-header">
-                <h3>Weather Dashboard</h3>
+                <h3>The Boon Platform</h3>
               </div>
               <p>
-                A responsive weather application that displays current conditions and forecasts. 
-                Built with React and integrated with weather APIs.
+                Core systems development for a dynamic media platform delivering interactive content. Built scalable front- and back-end features including custom logic for user archetyping and real-time chat integration.
               </p>
               <div className="project-tags">
                 <span className="tag">React</span>
-                <span className="tag">API</span>
-                <span className="tag">CSS Grid</span>
+                <span className="tag">JavaScript</span>
+                <span className="tag">Python</span>
               </div>
               <a href="#" className="project-link">View Project →</a>
             </div>
@@ -144,30 +142,33 @@ function App() {
           <h2>Skills & Technologies</h2>
           <div className="skills-grid">
             <div className="skill-category">
-              <h3>Frontend</h3>
+              <h3>Languages</h3>
+              <ul>
+                <li>JavaScript / TypeScript</li>
+                <li>Python</li>
+                <li>Java</li>
+                <li>C/C++</li>
+                <li>HTML5 & CSS3</li>
+              </ul>
+            </div>
+            <div className="skill-category">
+              <h3>Frameworks & Databases</h3>
               <ul>
                 <li>React</li>
-                <li>JavaScript / ES6+</li>
-                <li>HTML5 & CSS3</li>
-                <li>Tailwind CSS</li>
-              </ul>
-            </div>
-            <div className="skill-category">
-              <h3>Backend</h3>
-              <ul>
                 <li>Node.js</li>
-                <li>Express</li>
+                <li>SQL</li>
                 <li>MongoDB</li>
-                <li>REST APIs</li>
+                <li>Supabase</li>
               </ul>
             </div>
             <div className="skill-category">
-              <h3>Tools & Others</h3>
+              <h3>Methodologies & Tools</h3>
               <ul>
-                <li>Git & GitHub</li>
-                <li>Vite</li>
-                <li>Firebase</li>
-                <li>Docker</li>
+                <li>Scrum & Agile</li>
+                <li>System Automation</li>
+                <li>G Suite Administration</li>
+                <li>CRM Systems</li>
+                <li>Full-Stack Development</li>
               </ul>
             </div>
           </div>
@@ -179,20 +180,20 @@ function App() {
         <div className="container">
           <h2>Let's Connect</h2>
           <p className="contact-description">
-            I'm always interested in hearing about new projects and opportunities.
+            I'm always interested in hearing about new opportunities and projects. Feel free to reach out!
           </p>
           <div className="contact-links">
-            <a href="mailto:your.email@example.com" className="contact-link">Email Me</a>
+            <a href="mailto:aklisouriotis@gmail.com" className="contact-link">Email Me</a>
             <a href="https://github.com" target="_blank" rel="noopener noreferrer" className="contact-link">GitHub</a>
             <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className="contact-link">LinkedIn</a>
-            <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" className="contact-link">Twitter</a>
+            <a href="tel:+19176027438" className="contact-link">Call Me</a>
           </div>
         </div>
       </section>
 
       {/* Footer */}
       <footer className="footer">
-        <p>&copy; 2024 Alex. All rights reserved.</p>
+        <p>&copy; 2025 Alexander Klisouriotis. All rights reserved.</p>
       </footer>
     </div>
   )
