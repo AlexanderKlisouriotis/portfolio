@@ -24,3 +24,6 @@ dist-ssr
 *.sw?
 
 .resume/*
+akres.docx
+akres.pdf
+akres.txt
