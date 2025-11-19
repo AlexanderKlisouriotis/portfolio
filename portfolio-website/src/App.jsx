@@ -1,4 +1,11 @@
 import { useState } from 'react'
+import DarkModeIcon from '@mui/icons-material/DarkMode'
+import LightModeIcon from '@mui/icons-material/LightMode'
+import EmailIcon from '@mui/icons-material/Email'
+import PhoneIcon from '@mui/icons-material/Phone'
+import GitHubIcon from '@mui/icons-material/GitHub'
+import LinkedInIcon from '@mui/icons-material/LinkedIn'
+import IconButton from '@mui/material/IconButton'
 import './App.css'
 
 function App() {
@@ -21,7 +28,7 @@ function App() {
       {/* Navigation */}
       <nav className="navbar">
         <div className="nav-container">
-          <div className="logo-text">Alex</div>
+          <div className="logo-text"></div>
           <ul className="nav-menu">
             <li><button onClick={() => scrollToSection('hero')} className="nav-link">Home</button></li>
             <li><button onClick={() => scrollToSection('about')} className="nav-link">About</button></li>
@@ -30,7 +37,7 @@ function App() {
             <li><button onClick={() => scrollToSection('contact')} className="nav-link">Contact</button></li>
           </ul>
           <button className="theme-toggle" onClick={toggleTheme} aria-label="Toggle theme">
-            {isDarkMode ? '☀️' : '🌙'}
+            {isDarkMode ? <LightModeIcon color="primary" /> : <DarkModeIcon color='secondary'/>}
           </button>
         </div>
       </nav>
@@ -43,9 +50,27 @@ function App() {
           <p className="hero-description">
             Building scalable, high-impact solutions with React, JavaScript, and Python. Experienced in full-stack development and cross-functional collaboration.
           </p>
-          <button className="cta-button" onClick={() => scrollToSection('projects')}>
+          <p>
+            <button className="cta-button" onClick={() => scrollToSection('projects')}>
             View My Work
           </button>
+          </p>
+          
+          <p>
+          <IconButton color="primary" href="mailto:aklisouriotis@gmail.com">
+          <EmailIcon />
+          </IconButton>
+          <IconButton color="primary" href="tel:+19176027438">
+          <PhoneIcon />
+          </IconButton>
+          <IconButton color="primary" href="https://www.linkedin.com/in/alexander-klisouriotis-4ba7ba1bb/" target="_blank" rel="noopener noreferrer">
+          <LinkedInIcon />
+          </IconButton>
+          <IconButton color="primary" href="https://github.com/AlexanderKlisouriotis" target="_blank" rel="noreferrer">
+          <GitHubIcon />
+          </IconButton>
+          </p>
+          
         </div>
       </section>
 
@@ -100,7 +125,7 @@ function App() {
                 <span className="tag">JavaScript</span>
                 <span className="tag">Scrum</span>
               </div>
-              <a href="#" className="project-link">View Project →</a>
+              <a href="#" className="project-link">View Project</a>
             </div>
 
             <div className="project-card">
@@ -115,7 +140,7 @@ function App() {
                 <span className="tag">CSS</span>
                 <span className="tag">Google Apps</span>
               </div>
-              <a href="#" className="project-link">View Project →</a>
+              <a href="#" className="project-link">View Project</a>
             </div>
 
             <div className="project-card">
@@ -130,7 +155,7 @@ function App() {
                 <span className="tag">JavaScript</span>
                 <span className="tag">Python</span>
               </div>
-              <a href="#" className="project-link">View Project →</a>
+              <a href="https://the-boon.com/" target="_blank" rel="noreferrer" className="project-link">View Project</a>
             </div>
           </div>
         </div>
@@ -183,10 +208,10 @@ function App() {
             I'm always interested in hearing about new opportunities and projects. Feel free to reach out!
           </p>
           <div className="contact-links">
-            <a href="mailto:aklisouriotis@gmail.com" className="contact-link">Email Me</a>
-            <a href="https://github.com" target="_blank" rel="noopener noreferrer" className="contact-link">GitHub</a>
-            <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className="contact-link">LinkedIn</a>
-            <a href="tel:+19176027438" className="contact-link">Call Me</a>
+            <a href="mailto:aklisouriotis@gmail.com" className="contact-link">Email</a>
+            <a href="https://github.com/AlexanderKlisouriotis" target="_blank" rel="noopener noreferrer" className="contact-link">GitHub</a>
+            <a href="https://www.linkedin.com/in/alexander-klisouriotis-4ba7ba1bb/" target="_blank" rel="noopener noreferrer" className="contact-link">LinkedIn</a>
+            <a href="tel:+19176027438" className="contact-link">Call or Text</a>
           </div>
         </div>
       </section>
