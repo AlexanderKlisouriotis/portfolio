@@ -37,7 +37,7 @@ function App() {
             <li><button onClick={() => scrollToSection('contact')} className="nav-link">Contact</button></li>
           </ul>
           <button className="theme-toggle" onClick={toggleTheme} aria-label="Toggle theme">
-            {isDarkMode ? <LightModeIcon color="primary" /> : <DarkModeIcon color='secondary'/>}
+            {isDarkMode ? <LightModeIcon color="primary" /> : <DarkModeIcon color='secondary' />}
           </button>
         </div>
       </nav>
@@ -45,32 +45,32 @@ function App() {
       {/* Hero Section */}
       <section id="hero" className="hero">
         <div className="hero-content">
-          <h1 className="hero-title">Hi, I'm Alexander</h1>
-          <p className="hero-subtitle">Software Engineer & Problem Solver</p>
+          <h1 className="hero-title">Alexander Klisouriotis</h1>
+          <p className="hero-subtitle">Software Engineer & System Optimizer</p>
           <p className="hero-description">
-            Building scalable, high-impact solutions with React, JavaScript, and Python. Experienced in full-stack development and cross-functional collaboration.
+            Specializing in building scalable, high-performance applications. From automation scripts to dynamic web platforms, I architect systems that are efficient, reliable, and built to scale.
           </p>
           <p>
             <button className="cta-button" onClick={() => scrollToSection('projects')}>
-            View My Work
-          </button>
+              View My Work
+            </button>
           </p>
-          
+
           <p>
-          <IconButton color="primary" href="https://www.linkedin.com/in/alexander-klisouriotis-4ba7ba1bb/" target="_blank" rel="noopener noreferrer">
-          <LinkedInIcon />
-          </IconButton>
-          <IconButton color="primary" href="https://github.com/AlexanderKlisouriotis" target="_blank" rel="noreferrer">
-          <GitHubIcon />
-          </IconButton>
-          <IconButton color="primary" href="mailto:aklisouriotis@gmail.com">
-          <EmailIcon />
-          </IconButton>
-          <IconButton color="primary" href="tel:+19176027438">
-          <PhoneIcon />
-          </IconButton>
+            <IconButton color="primary" href="https://www.linkedin.com/in/alexander-klisouriotis-4ba7ba1bb/" target="_blank" rel="noopener noreferrer">
+              <LinkedInIcon />
+            </IconButton>
+            <IconButton color="primary" href="https://github.com/AlexanderKlisouriotis" target="_blank" rel="noreferrer">
+              <GitHubIcon />
+            </IconButton>
+            <IconButton color="primary" href="mailto:aklisouriotis@gmail.com">
+              <EmailIcon />
+            </IconButton>
+            <IconButton color="primary" href="tel:+19176027438">
+              <PhoneIcon />
+            </IconButton>
           </p>
-          
+
         </div>
       </section>
 
@@ -81,10 +81,10 @@ function App() {
           <div className="about-content">
             <div className="about-text">
               <p>
-                I'm an aspiring software engineer with a foundation in automation, technical support, and cross-functional problem-solving. I'm passionate about optimizing systems and building scalable solutions in tech-driven environments.
+                I am a Software Engineer with a strong foundation in automation and cross-functional problem-solving. Currently driving core system development at The Boon, I specialize in optimizing workflows and building scalable solutions using JavaScript, Python, and React.
               </p>
               <p>
-                Currently working at The Boon as a Software Engineer, where I develop core systems and features using JavaScript, Python, and React. I thrive in fast-paced startup environments and am committed to shipping high-quality, performant solutions.
+                I thrive in fast-paced startup environments and am committed to shipping high-quality, performant solutions that drive business growth.
               </p>
               <p>
                 Bachelor of Science in Computer Science from Pace University (Cum Laude, Dean's List). Experienced with full-stack development, system automation, and cross-functional collaboration.
@@ -110,39 +110,10 @@ function App() {
 
       {/* Projects Section */}
       <section id="projects" className="projects">
+        
         <div className="container">
           <h2>Featured Projects</h2>
           <div className="projects-grid">
-            <div className="project-card">
-              <div className="project-header">
-                <h3>Buff-Bot</h3>
-              </div>
-              <p>
-                A React-based workout logging and regimen generator. Built a responsive fitness tracking app with user-driven workout logging, personalized training suggestions, and custom routine creation. Served as Scrum Guardian coordinating sprint planning.
-              </p>
-              <div className="project-tags">
-                <span className="tag">React</span>
-                <span className="tag">JavaScript</span>
-                <span className="tag">Scrum</span>
-              </div>
-              <a href="#" className="project-link">View Project</a>
-            </div>
-
-            <div className="project-card">
-              <div className="project-header">
-                <h3>Mutual Aid Website</h3>
-              </div>
-              <p>
-                Informational site for a grassroots aid network. Designed and developed a static site using HTML and CSS with integrated Google web apps to streamline community resource access and volunteer sign-ups.
-              </p>
-              <div className="project-tags">
-                <span className="tag">HTML</span>
-                <span className="tag">CSS</span>
-                <span className="tag">Google Apps</span>
-              </div>
-              <a href="#" className="project-link">View Project</a>
-            </div>
-
             <div className="project-card">
               <div className="project-header">
                 <h3>The Boon Platform</h3>
@@ -157,6 +128,38 @@ function App() {
               </div>
               <a href="https://the-boon.com/" target="_blank" rel="noreferrer" className="project-link">View Project</a>
             </div>
+
+            <div className="project-card">
+              <div className="project-header">
+                <h3>Buff-Bot</h3>
+              </div>
+              <p>
+                A React-based workout logging and regimen generator. Built a responsive fitness tracking app with user-driven workout logging, personalized training suggestions, and custom routine creation. Served as Scrum Guardian coordinating sprint planning.
+              </p>
+              <div className="project-tags">
+                <span className="tag">React</span>
+                <span className="tag">JavaScript</span>
+                <span className="tag">Scrum</span>
+              </div>
+              <a href="https://github.com/paceuniversity/cs389f2023team5" target="_blank" rel="noreferrer" className="project-link">View Project</a>
+            </div>
+
+            <div className="project-card">
+              <div className="project-header">
+                <h3>Interactive Globe</h3>
+              </div>
+              <p>
+                An interactive 3D globe built with globe.gl and Three.js that allows users to explore and learn about countries worldwide. Features realistic 3D visualization, hex bin layers, and smooth camera transitions. Aimed to be a tool for education in history and current events.
+              </p>
+              <div className="project-tags">
+                <span className="tag">Three.js</span>
+                <span className="tag">globe.gl</span>
+                <span className="tag">JavaScript</span>
+              </div>
+              <a href="https://github.com/AlexanderKlisouriotis/Interactive-Globe" target="_blank" rel="noreferrer" className="project-link">View Project</a>
+            </div>
+
+           
           </div>
         </div>
       </section>
