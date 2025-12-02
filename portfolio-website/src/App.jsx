@@ -57,17 +57,17 @@ function App() {
           </p>
           
           <p>
-          <IconButton color="primary" href="mailto:aklisouriotis@gmail.com">
-          <EmailIcon />
-          </IconButton>
-          <IconButton color="primary" href="tel:+19176027438">
-          <PhoneIcon />
-          </IconButton>
           <IconButton color="primary" href="https://www.linkedin.com/in/alexander-klisouriotis-4ba7ba1bb/" target="_blank" rel="noopener noreferrer">
           <LinkedInIcon />
           </IconButton>
           <IconButton color="primary" href="https://github.com/AlexanderKlisouriotis" target="_blank" rel="noreferrer">
           <GitHubIcon />
+          </IconButton>
+          <IconButton color="primary" href="mailto:aklisouriotis@gmail.com">
+          <EmailIcon />
+          </IconButton>
+          <IconButton color="primary" href="tel:+19176027438">
+          <PhoneIcon />
           </IconButton>
           </p>
           
