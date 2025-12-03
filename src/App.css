@@ -539,6 +539,12 @@
 }
 
 /* Responsive Design */
+@media (max-width: 1380px) {
+  .about-content {
+    grid-template-columns: 1fr;
+  }
+}
+
 @media (max-width: 1024px) {
   .container {
     padding: 0 2rem;

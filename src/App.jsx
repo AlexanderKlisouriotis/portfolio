@@ -119,7 +119,7 @@ function App() {
                 <h3>The Boon Platform</h3>
               </div>
               <p>
-                Core systems development for a dynamic media platform delivering interactive content. Built scalable front- and back-end features including custom logic for user archetyping and real-time chat integration.
+                Core systems development for a dynamic media platform delivering interactive content.Developed scalable front- and back-end features in JavaScript, Python, and React, including custom logic for user archetyping and AI integration.
               </p>
               <div className="project-tags">
                 <span className="tag">React</span>
